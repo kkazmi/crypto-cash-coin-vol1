@@ -1,0 +1,12 @@
+.nav_menu {
+    background: #E49413B3 !important;
+}    
+.top_nav .nav .open > a, .top_nav .nav .open >
+ a:focus, .top_nav .nav .open > a:hover, .top_nav .nav > 
+li > a:focus, .top_nav .nav > li > a:hover {
+    background: #CE9232 !important;
+}
+#logingrid{
+    padding: 5% !important;
+    background-color: #3161c9 !important;
+}
