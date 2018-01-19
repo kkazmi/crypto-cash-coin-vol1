@@ -36,9 +36,9 @@ class Auth_model extends CI_Model
                     'currency'              =>   $currnecy_detail[0]->id,
                     'currencyname'          =>   $currnecy_detail[0]->short_name,
                     'rpc_host'              =>   $currnecy_detail[0]->host,
-                    'rpc_user'              =>   $currnecy_detail[1]->user,
+                    'rpc_user'              =>   $currnecy_detail[0]->user,
                     'rpc_pass'              =>   $currnecy_detail[0]->pass,
-                    'rpc_port'              =>   $currnecy_detail[1]->port,
+                    'rpc_port'              =>   $currnecy_detail[0]->port,
                     'logged_in'             =>   TRUE,
                 );
             }
